@@ -21,13 +21,13 @@ exports.config = {
                 // 'incognito',
                 // 'disable-extensions',
                 // 'show-fps-counter=true'
-               // '--headless',
+                  '--headless'
                 //'--disable-gpu'
             ]
         },
 
         // execute tests using 2 browsers running in parallel
-        shardTestFiles: true,
+        shardTestFiles: false,
         maxInstances: 5
     },
 
