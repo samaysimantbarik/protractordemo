@@ -1,6 +1,6 @@
 Feature: 3 year plan readonly when switching to other faculty
 
-  @mytest
+  @reg
   Scenario: Change view according to faculty selected
     Given I am a SLP Faculty User
     And I am on 3 Year Plan page
