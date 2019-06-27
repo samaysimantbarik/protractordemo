@@ -6,7 +6,7 @@
   "scripts": {
     "_comment": " -------------------low level scripts------------------------------------",
     "protractorLocalInProgress": "protractor ./protractor.conf.local.js",
-    "protractorLocalMyTest": "protractor ./protractor.conf.uat.js --cucumberOpts.tags=@mytest",
+    "protractorLocalMyTest": "protractor ./protractor.conf.test.js --cucumberOpts.tags=@reg",
     "debug": "node --inspect-brk ./node_modules/protractor/bin/protractor ./protractor.conf.local.js",
     "protractorLocalDebug": "node --inspect-brk ./node_modules/protractor/bin/protractor ./protractor.conf.local.js",
     "fullRegressionUAT": "failsafe clean protractorUAT report",
